@@ -90,7 +90,7 @@ const Search = () => {
             location: city,
             radius_miles: radius,
             days_ago: datePosted,
-            api_key: 'mthpyw9ea7zyswfuj3zur6bt55fce7qf',
+            api_key: process.env.REACT_APP_API_KEY,
             page: fetchPage,
             jobs_per_page: 100,
           },
